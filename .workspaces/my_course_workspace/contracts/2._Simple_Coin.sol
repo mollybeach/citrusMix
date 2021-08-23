@@ -46,7 +46,7 @@ second function  we need to send coins between addresses
 require that the amount is greater than or equal to whatever balance this person's address has if not send message back to user Insufficient balance
 *we can create events Ethereum and solidity has events which are inheritable members of contracts when you call them they 
 causes the arguments that you pass and stored in the transactions log and the transactions log is a special data structure 
-in the blockchain it's a log that is associated with the log of the contract and are incorporated into the blockchain and stay there as long as the block is accessible 
+in the blockchain it's a log that is associated  with the log of the contract and are incorporated into the blockchain and stay there as long as the block is accessible 
 which in theory could be forever so this is the kind of functions these events have to declare the fact that it is an event and give it a name were going to call it 
 whenever our user sends some coins to someone else we want to the fact that it was sent and who it was sent to to be recorded so once this function is done  we want to log 
 this data in the blockchain . we're going to log the address from so where this coin came from and where it's going how much and in order to trigger it with an emit function 
