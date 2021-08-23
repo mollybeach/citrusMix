@@ -30,7 +30,7 @@ contract Coin{
 
 
 /*address is a datatype declare new variable value of the minter person that created this contract  every account with a  smart contract has an address it's used to send and receive ether it's like a bank account number mapping is a data type in solidity minter is the name we're giving it 
-allows store an association quickly  get a value corresponding to key basically like a dictionary  mapping address to uint address to a value greater than zero public 
+allows store an association quickly  get a value corresponding to key basically lik e a dictionary  mapping address to uint address to a value greater than zero public 
 balances is the name we're giving it next we're going to make a construction function constructor function run directly when content created used to access variables directly 
 msg is keyword that allows us to access some special variables that is available for us from the block chain that are sent through when the contract is called
 msg.sender which returns the address of the wallet that called the contract and in this case called the contract and created it 
